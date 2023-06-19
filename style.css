@@ -447,6 +447,18 @@ font-weight: 500;
     .MyBtn {
       width: 60%;
     }
+      
+       .MyBtn {
+    margin-left: 0 !important;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .MyBtn button {
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 30px;
+  }
   
     .RulesBox,
     .question,
