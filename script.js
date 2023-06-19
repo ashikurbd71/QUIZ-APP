@@ -33,11 +33,11 @@ let questions = [
 
         numb:3,
         question:'Which sport is the most popular in Bangladesh?',
-        answer:'Kabaddi',
+        answer:'Cricket',
         option:[
 
-            'Kabaddi',
-             'Cricket',
+            'Cricket',
+            'kabaddi'
              'Hockey',
               'Football'
          ]
