@@ -25,17 +25,6 @@ body{
     border-radius: 48px;
 }
 
-@media (max-width: 480px) {
-    .quizapp{
-    width: 90%;
-    height: auto;
-    max-height: 80vh;
-    border-radius: 12px;
-    box-shadow: none;
-    }
-
-
-}
 
 
 
@@ -117,15 +106,6 @@ transition: 0.2s ease-in-out;
 
 }
 
-@media (max-width: 480px) {
-    .RulesBox{
-        width: 90%;
-        height: auto;
-        max-height: 80vh;
-        border-radius: 12px;
-        box-shadow: none;
-    }
-}
 
 
 .rules-list{
@@ -216,15 +196,6 @@ ul li{
     pointer-events: none;
 }
 
-@media (max-width: 480px) {
-    .question{
-        width: 90%;
-        height: auto;
-        max-height: 80vh;
-        border-radius: 12px;
-        box-shadow: none;
-    }
-}
 
 .question-header{
 
@@ -407,7 +378,6 @@ footer button{
 
 }
 
-
 .result_img img{
     width: 100%;
     height: 170px;
@@ -464,13 +434,49 @@ font-weight: 500;
 
 }
 
-@media (max-width: 480px) {
-    .result_box{
-      border-radius: 25px;
-      padding: 20px;
+
+
+/*-------------------responsive---------------*/
+  
+  @media only screen and (min-width: 768px) {
+    .quizapp {
+      max-width: 480px;
+     
+    }
+  
+    .MyBtn {
+      width: 60%;
+    }
+  
+    .RulesBox,
+    .question,
+    .result_box {
+      max-width: 480px;
+    }
+  }
+  
+  /* Desktop Styles */
+  
+  @media only screen and (min-width: 992px) {
+    .quizapp {
+      max-width: 768px;
+    }
+  
+    .MyBtn {
+      width: 40%;
+    }
+  
+    .RulesBox,
+    .question,
+    .result_box {
+      max-width: 768px;
     }
   }
  
+  
+  
+  
+  
   
   
   
